@@ -1,0 +1,19 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidrestrepo07/Guia-hoteles.git"
+  },
+  "author": "David Restrepo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidrestrepo07/Guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/davidrestrepo07/Guia-hoteles#readme"
+}
