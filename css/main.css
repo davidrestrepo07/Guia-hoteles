@@ -5,10 +5,11 @@
 
 footer{
     padding: 10px 10px 0 10px;
-    background-color: darkkhaki;
+    background-color: burlywood;
     margin-bottom:0px;
     margin-top: 10px;
     bottom: 0;
+    color: white;
 }
 
 .btn{
@@ -31,3 +32,12 @@ footer{
 .oi-browser{
     padding: 0 5px 0 5px;
 }
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
