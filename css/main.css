@@ -14,6 +14,7 @@ footer{
 .btn{
     background-color: lightpink;
     width: 100%;
+    color: white;
 }
 
 .card-hotel{    
@@ -25,4 +26,8 @@ footer{
 .navbar a{
     color: peru;
     font: bold;
+}
+
+.oi-browser{
+    padding: 0 5px 0 5px;
 }
