@@ -52,10 +52,12 @@
 
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" id="comparar-tab" data-toggle="tab" href="#comparar" aria-controls="comparar" aria-selected="false">Comparar</a>
+                <a class="nav-link active" id="comparar-tab" data-toggle="tab" href="#comparar" aria-controls="comparar"
+                    aria-selected="false">Comparar</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#pago" id="pago-tab" data-toggle="tab" aria-controls="pago" aria-selected="false">Pagos aceptados</a>
+                <a class="nav-link" href="#pago" id="pago-tab" data-toggle="tab" aria-controls="pago"
+                    aria-selected="false">Pagos aceptados</a>
             </li>
         </ul>
 
@@ -127,6 +129,71 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pago" role="tabpanel" aria-labelledby="pago-tab">
+                <div class="accordion" id="accordionTarjetas">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left text-decoration-none" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Tarjeta débito
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Es la tarjeta que le permite a los clientes titulares de cuenta de ahorros y corriente
+                                realizar todas sus compras presenciales o por internet y apps, a nivel nacional e
+                                internacional de forma segura, rápida y simple, descontando el valor de la compra del
+                                saldo disponible, de manera exacta y sin costos adicionales. Es mejor que pagar con
+                                efectivo por que es seguro y fácil.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed text-decoration-none" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Tarjeta crédito
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Al hacer referencia a compras en centros comerciales, seguramente uno de los medios de
+                                pago que más se manejan son las Tarjetas de Crédito y, con mayor frecuencia, en épocas
+                                de rebajas o en festividades como Navidad y Año Nuevo. Y es que como su nombre lo
+                                indica, este producto financiero es una opción de la que dispones al momento de hacer
+                                una compra de un bien o servicio, el cual puedes financiar a cuotas.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed text-decoration-none" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    PSE
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Este servicio permite a las empresas ofrecer a sus clientes la posibilidad de realizar
+                                pagos y/o compras, debitando los recursos en línea de la Entidad Financiera donde el
+                                cliente tiene su dinero y depositándolos en la Entidad Financiera recaudadora que defina
+                                la Empresa o Comercio.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
                         <div class="card-header">
