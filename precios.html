@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
+    <title>Precios</title>
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -30,10 +30,10 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="about.html">Nosotros</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="precios.html">Precios</a>
-                </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="#">Precios</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
             </ul>
@@ -46,55 +46,82 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item " aria-current="page"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+              <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
           </nav>
-        <h1>Dejanos tu comentario</h1>
-        <form action="">
-            <div class="form-row">
-                <div class="form-group col-sm-6">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-                </div>
-                <div class="form-group col-sm-6">
-                <label for="ape">Apellido</label>
-                <input type="text" class="form-control" id="ape" placeholder="Ingrese su apellido">
+          <div class="table-responsive">
+       <table class="table table-striped">
+           <thead>
+               <th>Calidad</th>
+               <th>Manrique</th>
+               <th>Poblado</th>
+               <th>Belén</th>
+               <th>Manrique</th>
+               <th>Poblado</th>
+               <th>Belén</th>
+           </thead>
+           <tbody>
+               <tr>
+                   <td><span class="oi oi-star"></span></td>
+                   <td>$100</td>
+                   <td>$300</td>
+                   <td>$150</td>
+                   <td>$100</td>
+                   <td>$300</td>
+                   <td>$150</td>
+               </tr>
+               <tr>
+                <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                <td>$200</td>
+                <td>$300</td>
+                <td>$250</td>
+                <td>$200</td>
+                <td>$300</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                <td>$400</td>
+                <td>$600</td>
+                <td>$350</td>
+                <td>$200</td>
+                <td>$300</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                <td>$800</td>
+                <td>$1000</td>
+                <td>$950</td>
+                <td>$200</td>
+                <td>$300</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                <td>$1000</td>
+                <td>$2000</td>
+                <td>$3000</td>
+                <td>$200</td>
+                <td>$300</td>
+                <td>$250</td>
+            </tr>
+           </tbody>
+       </table>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Pagos acpetados
             </div>
-        </div>
-            <div class="form-group">
-                <label for="email">E-mail</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese su e-mail">
-            
-        </div>
-        <div class="form-row">
-            <div class="form-group col-sm-9">
-                <label for="direccion">Dirección</label>
-                <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
-            </div>
-            <div class="form-group col-sm-3">
-            <label for="comuna">Comuna</label>
-            <select name="" id="comuna" class="form-control">
-                <option value="">Manrique</option>
-                <option value="">Poblado</option>
-                <option value="">Aranjuez</option>
-                <option value="">Belen</option>
-                <option value="">Robledo</option>
-            </select>
+            <ul class="list-goup list-group-flush">
+                <li class="list-group-item">Débito</li>
+                <li class="list-group-item">Crédito</li>
+                <li class="list-group-item">PSE</li>
+            </ul>
         </div>
 
     </div>
-    <div class="form-group">
-        <label for="comentario">Comentario</label>
-        <textarea name="" id="comentario" class="form-control" rows="5"></textarea>
-    </div>
-    <div class="form-group">
-        <div class="form-check">
-            <input type="checkbox" name="" id="si" class="form-check-input">
-            <label for="si">Quiero que me contacter por mi correo</label>
-        </div>
-    </div>
-    <button type="submit" class="btn col-sm-2">Enviar</button>
-        </form>
     </div>
 
     <footer>
