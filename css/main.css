@@ -12,16 +12,13 @@ footer{
     color: white;
 }
 
-.btn{
-    background-color: lightpink;
+.btn-warning{
     width: 100%;
     color: white;
     border-radius: 0%;
 }
 
-.btn:hover{
-    color: black;
-}
+
 
 .navbar a{
     color: peru;
