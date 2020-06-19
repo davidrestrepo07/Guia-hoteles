@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -45,83 +45,102 @@
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item " aria-current="page"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Precios</li>
+                <li class="breadcrumb-item " aria-current="page"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
-          </nav>
-          <div class="table-responsive">
-       <table class="table table-striped">
-           <thead>
-               <th>Calidad</th>
-               <th>Manrique</th>
-               <th>Poblado</th>
-               <th>Belén</th>
-               <th>Manrique</th>
-               <th>Poblado</th>
-               <th>Belén</th>
-           </thead>
-           <tbody>
-               <tr>
-                   <td><span class="oi oi-star"></span></td>
-                   <td>$100</td>
-                   <td>$300</td>
-                   <td>$150</td>
-                   <td>$100</td>
-                   <td>$300</td>
-                   <td>$150</td>
-               </tr>
-               <tr>
-                <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                <td>$200</td>
-                <td>$300</td>
-                <td>$250</td>
-                <td>$200</td>
-                <td>$300</td>
-                <td>$250</td>
-            </tr>
-            <tr>
-                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                <td>$400</td>
-                <td>$600</td>
-                <td>$350</td>
-                <td>$200</td>
-                <td>$300</td>
-                <td>$250</td>
-            </tr>
-            <tr>
-                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                <td>$800</td>
-                <td>$1000</td>
-                <td>$950</td>
-                <td>$200</td>
-                <td>$300</td>
-                <td>$250</td>
-            </tr>
-            <tr>
-                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$3000</td>
-                <td>$200</td>
-                <td>$300</td>
-                <td>$250</td>
-            </tr>
-           </tbody>
-       </table>
-    </div>
-    <div class="d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
-            <div class="card-header">
-                Pagos acpetados
-            </div>
-            <ul class="list-goup list-group-flush">
-                <li class="list-group-item">Débito</li>
-                <li class="list-group-item">Crédito</li>
-                <li class="list-group-item">PSE</li>
-            </ul>
-        </div>
+        </nav>
 
-    </div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" id="comparar-tab" data-toggle="tab" href="#comparar" aria-controls="comparar" aria-selected="false">Comparar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#pago" id="pago-tab" data-toggle="tab" aria-controls="pago" aria-selected="false">Pagos aceptados</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="comparar" role="tabpanel" aria-labelledby="comparar-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <th>Calidad</th>
+                            <th>Manrique</th>
+                            <th>Poblado</th>
+                            <th>Belén</th>
+                            <th>Manrique</th>
+                            <th>Poblado</th>
+                            <th>Belén</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>$100</td>
+                                <td>$300</td>
+                                <td>$150</td>
+                                <td>$100</td>
+                                <td>$300</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span></td>
+                                <td>$400</td>
+                                <td>$600</td>
+                                <td>$350</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                <td>$800</td>
+                                <td>$1000</td>
+                                <td>$950</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span></td>
+                                <td>$1000</td>
+                                <td>$2000</td>
+                                <td>$3000</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                                <td>$250</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pago" role="tabpanel" aria-labelledby="pago-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Pagos aceptados
+                        </div>
+                        <ul class="list-goup list-group-flush">
+                            <li class="list-group-item">Débito</li>
+                            <li class="list-group-item">Crédito</li>
+                            <li class="list-group-item">PSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer>
