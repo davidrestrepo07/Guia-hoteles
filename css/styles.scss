@@ -12,7 +12,7 @@ $peru:#edc707;
 footer{
     padding: 10px 10px 0 10px;
     background-color: burlywood;
-    @include margenes(10px,0px )
+    @include margenes(10px,0px );
     bottom: 0;
     color: white;
 }
