@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color: burlywood;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: burlywood;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  bottom: 0;
+  color: white;
+}
+.btn-warning {
+  width: 100%;
+  color: white;
+  border-radius: 0%;
+}
+.navbar a {
+  color: #edc707;
+  font: bold;
+}
+.oi-browser {
+  padding: 0 5px 0 5px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
